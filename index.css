@@ -46,10 +46,7 @@ a {
 a:hover {
   background: green;
   color: white;
-}
-
-p {
-  margin: 10px;
+  transition: all 0.5s ease-out;
 }
 
 @media (max-width: 725px) {
