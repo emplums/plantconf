@@ -1,12 +1,62 @@
 body {
   border: 4px solid green;
-  height: 100vh;
-  padding: 20px;
-  text-align: center;
   font-family: 'Roboto Mono', monospace;
 }
 
 
 .step {
-  font-size: 30px;
+  font-size: 24px;
+}
+
+.chonk {
+  border-bottom: 4px solid green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.chonk:last-child {
+  border-bottom: 0;
+}
+
+.chonk div {
+  width: 50%;
+}
+
+.button {
+  border: 4px solid green;
+  border-radius: 6px;
+  padding: 10px;
+  height: 100%;
+}
+
+
+a:visted {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background: green;
+  color: white;
+}
+
+p {
+  margin: 10px;
+}
+
+@media (max-width: 725px) {
+  .chonk {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
