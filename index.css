@@ -33,6 +33,10 @@ body {
   height: 100%;
 }
 
+.ast {
+  top: -3px;
+  position: relative;
+}
 
 a:visted {
   color: black;
@@ -56,9 +60,4 @@ a:hover {
     align-items: center;
     text-align: center;
   }
-}
-
-.ast {
-  top: -3px;
-  position: relative;
 }
