@@ -20,6 +20,11 @@ body {
 
 .chonk:last-child {
   border-bottom: 0;
+  align-items: baseline;
+}
+
+.chonk:last-child div {
+  width: auto;
 }
 
 .chonk div {
@@ -53,11 +58,23 @@ a:hover {
   transition: all 0.5s ease-out;
 }
 
+.sponsors {
+  display: flex;
+  align-items: center;
+}
 @media (max-width: 725px) {
   .chonk {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .chonk:last-child {
+    align-items: center;
+  }
+
+  .sponsors {
+    display: block;
   }
 }
