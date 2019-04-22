@@ -8,6 +8,10 @@ body {
   font-size: 24px;
 }
 
+.lineup h2 {
+  font-size: 36px;
+}
+
 .chonk {
   border-bottom: 4px solid green;
   display: flex;
@@ -16,6 +20,24 @@ body {
   align-items: flex-end;
   margin: 0 auto;
   padding: 40px;
+}
+
+.lineup {
+  border-bottom: 4px solid green;
+  margin-left: 40px;
+}
+
+
+.title {
+  font-size: 24px;
+}
+
+.speaker {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.talk-wrapper {
+  max-width: 50%;
 }
 
 .chonk:last-child {
@@ -61,6 +83,11 @@ a:hover {
 .sponsors {
   display: flex;
   align-items: center;
+}
+
+.talk-wrapper {
+  display: block;
+  margin-bottom: 60px;
 }
 @media (max-width: 725px) {
   .chonk {
